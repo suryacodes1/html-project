@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Mooli&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+
+}
+.each{
+    display:flex;
+    
+}
+.logo{
+    width: 25%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    padding-left:30px;
+}
+.logo img{
+    width:50px;
+    border: 3px solid white;
+    border-radius:500px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+
+}
+.nav-list{
+    
+    list-style: none;
+    width: 300px;
+    display: flex;
+    flex:1;
+    justify-content:start;
+    padding-left: 50px;
+    padding-right: 10px;
+    align-items: center;
+   
+    margin-right: 0px;
+
+    
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right:10px;
+    color: white;
+    
+ 
+ }
+ .nav-list li a:hover{
+    color: rgb(15, 206, 164);
+    text-decoration:solid;
+
+
+
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+  
+    
+}
+.nav-list li  a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    
+    
+    
+
+}
+.name{
+    color:white;
+    margin-left:5px;
+    font-size:45px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+
+
+}
+.namem{
+    color:white;
+    margin-left:5px;
+    font-size:45px;
+    font-weight: bold;
+    
+    font-family: 'Mooli', sans-serif;
+
+
+}
+.plus{
+    color:white;
+    margin-left:5px;
+    font-size:45px;
+    font-weight: bold;
+    
+    font-family: 'Mooli', sans-serif;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/fruit.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.firstsection{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.photo img{
+    height:450px;
+    padding-right:80px;
+    padding-top:30px;
+    border-radius: 150px;
+    padding-left:90px;
+}
+.text p{
+    padding-right:200px ;
+    padding-top: 50px;
+    padding-left:10px;
+    line-height: 25px;
+    color: white;
+    font-family:'Kanit', sans-serif;
+
+}
+.head{
+    padding-top:30px;
+    color:rgb(15, 206, 164);
+    padding-left:10px;
+    text-decoration: underline;
+    
+}
+.btn{
+    padding:6px 10px;
+    vertical-align: middle;
+    background:none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    color:rgb(15, 206, 164);
+    border-color: rgb(15, 206, 164);
+}
+.background1{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/attack.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background2{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/ber.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background3{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/death.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background14{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/demon.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background4{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/given.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background5{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/kami.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background6{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/hitori.png');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background7{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/name.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background8{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/naruto.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background9{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/onep.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background10{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/otaku.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background11{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/sasaki.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background12{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/shigu.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.background13{
+    background: rgba(0, 0, 0, 0.7) url('../backgroundimg/tokyo.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
